@@ -9,8 +9,8 @@ const backSpace = () => {
 };
 
 const remove = () => {
-    inputState = "0";
-    screen.textContent = inputState;
+    inputState = "";
+    screen.textContent = "0";
 }
 
 const evaluate = () => {
